@@ -1,0 +1,36 @@
+.background{
+    background-color: #00175A;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carte{
+    width: 90%;
+    height: 80%;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.anime-entre{
+	-webkit-animation: fade-in 2s steps(100, start) 0.5s both;
+	        animation: fade-in 2s steps(100, start) 0.5s both;
+}
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
